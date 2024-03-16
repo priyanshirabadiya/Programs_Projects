@@ -1,0 +1,138 @@
+@media (max-width: 576px) {
+    .c1 div {
+        display: none;
+    }
+
+    .canvas-texts {
+        margin-top: 1rem !important;
+    }
+    .carousel-item {
+        padding: 0!important;
+        padding-top: 0 !important;
+    }
+   
+    #back-to-top{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 1000px)
+{
+.mb-sm-5{
+    width: 100%;
+}
+.setting{
+    display: none !important;
+}
+}
+@media (max-width: 992px) {
+    .dynamic-text {
+        max-height: calc(1.875rem + 6.3vw) !important;
+    }
+
+    .dynamic-text li h1 {
+        font-size: calc(2.775rem + 4.5vw) !important;
+    }
+
+    .design {
+        margin-top: 0rem !important;
+    }
+
+    .design {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .btn-class {
+        align-items: center;
+        justify-content: center;
+    }
+    
+.services .container .row .col-md-4 .container
+{
+    padding: 0 !important;
+}
+}
+
+@media (max-width: 992px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 100%;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .dynamic-text li h1 {
+        font-size: calc(5vw + var(--font-size));
+    }
+
+    .corner .col-6 {
+        text-align: center;
+    }
+}
+
+@media (max-width:540px) {
+    .i-class{
+        margin-bottom: 20px !important;
+    }
+}
+
+@media (max-width:320px) {
+    .section .container .corner div p:nth-child(2) a:nth-child(2) {
+        color: #000;
+        display: block !important;
+    }
+
+    .section .container .corner div p:nth-child(2) a:nth-child(1) {
+        color: #000;
+        display: none;
+    }
+    .akay-div .accordion:nth-child(3) .accordion-button:after {
+       display: none !important;
+    }
+    
+.akay-div .accordion:nth-child(1) .accordion-button:after {
+    display: none !important;
+   
+}
+
+
+.akay-div .accordion:nth-child(5) .accordion-button:after {
+    display: none !important;
+   
+}
+
+.akay-div .accordion:nth-child(7) .accordion-button:after {
+    display: none !important;
+    
+}
+
+.akay-div .accordion:nth-child(9) .accordion-button:after {
+    display: none !important;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Callum</title>
+  <!-- animation link-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- ----- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+    integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NAV START -->
+  <nav class="navbar bg-body-tertiary">
+    <div class="container">
+      <!-- NAV-container-start -->
+      <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Bootstrap">
+      </a>
+      <div class="c1 d-flex ">
+        <div class="text-3 ms-auto me-2"><span class="text-4 me-2"><i class="fa-solid fa-phone-flip fa-lg me-2 "
+              style="color: #000000;"></i><span class="fw-bolder">(060) 444 434 444</span></div>
+        <i class="fa-solid fa-bars fa-xl ms-3" style="color: #000000;cursor: pointer; " data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"></i>
+      </div>
+      <div class="offcanvas offcanvas-top h-100 " tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasTopLabel">Offcanvas top</h5>
+          <i class="fa-solid fa-xmark" style="color: #ffffff;" type="button" class="btn-close"
+            data-bs-dismiss="offcanvas" aria-label="Close"></i>
+        </div>
+        <div class="offcanvas-body text-light ">
+          <div class="canvas-texts ms-auto d-flex text-center justify-content-center">
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">Home</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">About
+                  Me</a></li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">What I
+                  Do</a></li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">Resume</a>
+              </li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">Portfolio</a></li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">FAQ</a></li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">Client
+                  speak</a></li>
+              <li><a href="#" class="text-light text-decoration-none fw-bolder">Content
+                  Me</a></li>
+            </ul>
+          </div>
+          <div class="social-icon">
+            <ul class=" d-flex justify-content-center mt-4 list-unstyled" style="margin-left:0px;">
+              <li><a href="#"><i class="fa-brands fa-twitter fa-lg" style="color: #ffffff;"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook fa-lg ms-3 " style="color: #ffffff;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-instagram fa-lg ms-3" style="color: #ffffff;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-linkedin-in fa-lg ms-3" style="color: #ffffff;"></i></a></li>
+              <li><a href=""><i class="fa-brands fa-dribbble fa-lg ms-3" style="color: #ffffff;"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--NAV-container-end -->
+  </nav>
+  <!-- ---------NAV-END------ -->
+  <!-- INTRO-START -->
+  
+  <section id="intro" role="main">
+    <div class="container pb-2 ">
+      <div class="row d-flex flex-wrap pb-5">
+        <div class="col-12 col-md-12 col-lg-7 mt-5 order-lg-0 order-1">
+          <div class="design">
+            <p class="text-12 fw-light d-flex flex-wrap mt-5">HI ,I'M A FREELANCER</p>
+            <ul class="dynamic-text text-uppercase text-font p-0">
+              <li>
+                <h1 class="fw-semibold m-0 p-0">designer</h1>
+              </li>
+              <li>
+                <h1 class="fw-semibold m-0 p-0">developer</h1>
+              </li>
+              <li>
+                <h1 class="fw-semibold m-0 p-0">Callum</h1>
+              </li>
+            </ul>
+            <p class=" d-flex flex-wrap fs-5 ">based in Los Angeles, USA.</p>
+            <div class="btn-class d-flex flex-wrap mt-4">
+              <button type="button" class="btn btn-dark ps-5 pe-5 p-3 mt-1">View My works</button><a href="" #
+                class="text-dark ms-5 mt-3 le">Contact Me</a><i class="fa-regular fa-circle-down ms-2 fa-lg"
+                style="color: #0d0d0d; margin-top: 28px;"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-5 order-lg-1 mt-5 d-flex order-0 pb-lg-2 pb-md-0">
+          <h1 class="animate__animated animate__zoomIn ">
+            <div class="design-2 mt-5 ms-lg-3 ms-md-0 ">
+              <div class=" rounded-pill border-light bg-light mt-5 d-inline-block p-3 shadow-lg wow zoomIn">
+                <img class="img-fluid rounded-pill d-block" src="images/web-developer.jpg" alt="">
+              </div>
+            </div>
+          </h1>
+        </div>
+      </div>
+      <div class="row">
+        <a href="#about" class="scroll-down-arrow text-dark smooth-scroll">
+          <span class="animated"><i class="fas fa-arrow-down"></i></span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <div class="setting align-items-center d-flex justify-content-center">
+    <i class="fas fa-cog fa-lg" style="color: white;"></i>
+  </div>
+  <!-- INTRO-END -->
+  <!-- -----------------ABOUT ME-STRAT------------- -->
+  <section id="about" class="section">
+    <div class="container animate__backInUp animate__animated animate__fadeInUpBig ">
+      <p class="mt-5 align-items-center d-flex justify-content-center"><span class="text-dark mt-5 bg-primary">About
+          Me</span></p>
+      <h2 class="fw-bold text-center fs-1">Know Me More</h2>
+      <div class="row mt-5">
+        <div class="col-12 col-lg-8">
+          <h2>Hi I'm <span class="border-bottom fw-bolder">Callum Smith</span></h2>
+          <p>I'm a designer & developer with a passion for web design. I enjoy developing simple, clean and slick
+            websites that provide real value to the end user. Thousands of clients have procured exceptional results
+            while working with me. Delivering work within time and budget which meets client’s requirements is our moto.
+          </p>
+        </div>
+        <div class="col-12 col-lg-4 ">
+          <div>
+            <div class="main-round rounded-circle ms-5 bg-primary align-items-center d-flex justify-content-center">
+              <span class="fw-bolder">22</span>
+            </div>
+            <div class="content">
+              <p class="fw-bolder">Years of
+                <span class="fw-bolder fs-2">Exprience</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row corner ">
+        <div class="col-6 col-lg-3 mt-5">
+          <p class="text-muted">Name:</p>
+          <p class="text-dark fw-bolder">Callum Smith</p>
+        </div>
+        <div class="col-6 col-lg-3 mt-5">
+          <p class="text-muted ">Email:</p>
+          <p class="text-dark fw-bolder"><a href="#">chat@callum.com</a><a href="#" style="display:none;">chatcallum</a>
+          </p>
+        </div>
+        <div class="col-6 col-lg-3 mt-5">
+          <p class="text-muted">Date of birth:</p>
+          <p class="text-dark fw-bolder">11 November, 1987</p>
+        </div>
+        <div class="col-6 col-lg-3 mt-5">
+          <p class="text-muted">From:</p>
+          <p class="text-dark fw-bolder">Los Angeles, USA.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- -----------------ABOUT ME-END------------- -->
+  <!-- -------------------SERVICES-START ----------------->
+
+  <section id="#section" class="services">
+    <div class="container  animate__backInUp animate__animated animate__fadeInUpBig">
+      <p class="mt-5 align-items-center d-flex justify-content-center"><span class="text-dark mt-5 bg-primary">What I
+          Do?</span></p>
+      <h2 class="fw-bold text-center fs-1">How I can help your next project</h2>
+      <div class="row mt-5">
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 512 512">
+              <path fill="#f7de3f"
+                d="M512 256c0 .9 0 1.8 0 2.7c-.4 36.5-33.6 61.3-70.1 61.3H344c-26.5 0-48 21.5-48 48c0 3.4 .4 6.7 1 9.9c2.1 10.2 6.5 20 10.8 29.9c6.1 13.8 12.1 27.5 12.1 42c0 31.8-21.6 60.7-53.4 62c-3.5 .1-7 .2-10.6 .2C114.6 512 0 397.4 0 256S114.6 0 256 0S512 114.6 512 256zM128 288a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm0-96a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM288 96a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm96 96a32 32 0 1 0 0-64 32 32 0 1 0 0 64z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Graphic Design</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 576 512">
+              <path fill="#f7de3f "
+                d="M64 0C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64H240l-10.7 32H160c-17.7 0-32 14.3-32 32s14.3 32 32 32H416c17.7 0 32-14.3 32-32s-14.3-32-32-32H346.7L336 416H512c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64zM512 64V352H64V64H512z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Web Design</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 512 512">
+              <path fill="#f7de3f "
+                d="M469.3 19.3l23.4 23.4c25 25 25 65.5 0 90.5l-56.4 56.4L322.3 75.7l56.4-56.4c25-25 65.5-25 90.5 0zM44.9 353.2L299.7 98.3 413.7 212.3 158.8 467.1c-6.7 6.7-15.1 11.6-24.2 14.2l-104 29.7c-8.4 2.4-17.4 .1-23.6-6.1s-8.5-15.2-6.1-23.6l29.7-104c2.6-9.2 7.5-17.5 14.2-24.2zM249.4 103.4L103.4 249.4 16 161.9c-18.7-18.7-18.7-49.1 0-67.9L94.1 16c18.7-18.7 49.1-18.7 67.9 0l19.8 19.8c-.3 .3-.7 .6-1 .9l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c.3-.3 .6-.7 .9-1l45.1 45.1zM408.6 262.6l45.1 45.1c-.3 .3-.7 .6-1 .9l-64 64c-6.2 6.2-6.2 16.4 0 22.6s16.4 6.2 22.6 0l64-64c.3-.3 .6-.7 .9-1L496 350.1c18.7 18.7 18.7 49.1 0 67.9L417.9 496c-18.7 18.7-49.1 18.7-67.9 0l-87.4-87.4L408.6 262.6z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Web Development</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+      </div>
+      <!-- ------------------------------- -->
+      <div class="row mt-5 mt-sm-0 mt-md-5">
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 576 512">
+              <path fill="#f7de3f "
+                d="M339.3 367.1c27.3-3.9 51.9-19.4 67.2-42.9L568.2 74.1c12.6-19.5 9.4-45.3-7.6-61.2S517.7-4.4 499.1 9.6L262.4 187.2c-24 18-38.2 46.1-38.4 76.1L339.3 367.1zm-19.6 25.4l-116-104.4C143.9 290.3 96 339.6 96 400c0 3.9 .2 7.8 .6 11.6C98.4 429.1 86.4 448 68.8 448H64c-17.7 0-32 14.3-32 32s14.3 32 32 32H208c61.9 0 112-50.1 112-112c0-2.5-.1-5-.2-7.5z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Brand Identity</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 512 512">
+              <path fill="#f7de3f "
+                d="M64 64c0-17.7-14.3-32-32-32S0 46.3 0 64V400c0 44.2 35.8 80 80 80H480c17.7 0 32-14.3 32-32s-14.3-32-32-32H80c-8.8 0-16-7.2-16-16V64zm96 288H448c17.7 0 32-14.3 32-32V251.8c0-7.6-2.7-15-7.7-20.8l-65.8-76.8c-12.1-14.2-33.7-15-46.9-1.8l-21 21c-10 10-26.4 9.2-35.4-1.6l-39.2-47c-12.6-15.1-35.7-15.4-48.7-.6L135.9 215c-5.1 5.8-7.9 13.3-7.9 21.1v84c0 17.7 14.3 32 32 32z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Business Analysis</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 text-center mt-5">
+          <div class="container">
+            <svg xmlns="http://www.w3.org/2000/svg" height="52" width="52" viewBox="0 0 512 512">
+              <path fill="#f7de3f "
+                d="M480 32c0-12.9-7.8-24.6-19.8-29.6s-25.7-2.2-34.9 6.9L381.7 53c-48 48-113.1 75-181 75H192 160 64c-35.3 0-64 28.7-64 64v96c0 35.3 28.7 64 64 64l0 128c0 17.7 14.3 32 32 32h64c17.7 0 32-14.3 32-32V352l8.7 0c67.9 0 133 27 181 75l43.6 43.6c9.2 9.2 22.9 11.9 34.9 6.9s19.8-16.6 19.8-29.6V300.4c18.6-8.8 32-32.5 32-60.4s-13.4-51.6-32-60.4V32zm-64 76.7V240 371.3C357.2 317.8 280.5 288 200.7 288H192V192h8.7c79.8 0 156.5-29.8 215.3-83.3z" />
+            </svg>
+            <h3 class="text-6 fw-bold mb-3 mt-3">Digital Marketing</h3>
+            <p class="text-muted mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry’s standard dummy text. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- -------------------SERVICES-END-------------------->
+  <!-- ----------------RESUME-START------------ -->
+  <main class="resume" id="resume" role="main">
+    <div class="container">
+      <p class="mt-5 align-items-center d-flex justify-content-center"><span
+          class="text-dark mt-5 bg-primary">Resume</span></p>
+      <h2 class="fw-bold text-center fs-1">A summary of My Resume</h2>
+      <div class="row  animate__backInUp animate__animated animate__fadeInUpBig">
+        <div class="col-lg-6 mt-5">
+          <h2 class=" fw-bolder mb-4 pb-2 mt-lg-3">My Education</h2>
+          <div class="border-start border-primary border-2 ps-3 mt-lg-5">
+            <h3 class="text-5">Master in Computer Engineering</h3>
+            <p class="mb-2">Harvard University / 2015 - 2017</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+            <hr class="my-4">
+            <h3 class="text-5">Bachelor in Computer Engineering</h3>
+            <p class="mb-2">University of California / 2014 - 2015</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+            <hr class="my-4">
+            <h3 class="text-5">Computer Science</h3>
+            <p class="mb-2">International University / 2013 - 2014</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <h2 class=" fw-bolder mb-4 pb-2 mt-lg-3">My Experience</h2>
+          <div class="border-start border-primary border-2 ps-3 mt-lg-5">
+            <h3 class="text-5">Sr. Font End Developer</h3>
+            <p class="mb-2">Apple Inc / 2020 - Current</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+            <hr class="my-4">
+            <h3 class="text-5">Jr. Font End Developer</h3>
+            <p class="mb-2">Dribbble Inc / 2018 - 2020</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+            <hr class="my-4">
+            <h3 class="text-5">HTML Developer</h3>
+            <p class="mb-2">Adobe Inc / 2017 - 2018</p>
+            <p class="text-muted">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+              has been the dummy text.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row progres-type mt-5">
+        <h2 class=" fw-bolder mb-4 pb-2 mt-lg-3">My skills</h2>
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">Web Design</h6>
+            <h6 class="fw-bold">65%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">React JS</h6>
+            <h6 class="fw-bold">70%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row progres-type">
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">HTML/CSS</h6>
+            <h6 class="fw-bold">95%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 95%;"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">Angular Js</h6>
+            <h6 class="fw-bold">60%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 60;"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row progres-type">
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">JavaScript</h6>
+            <h6 class="fw-bold">80%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="col-lg-6 mt-5">
+          <div class="d-flex justify-content-between">
+            <h6 class="fw-bold">Bootstrap</h6>
+            <h6 class="fw-bold">99%</h6>
+          </div>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="65" aria-valuemin="0"
+            aria-valuemax="100">
+            <div class="progress-bar bg-primary" style="width: 99%;"></div>
+          </div>
+        </div>
+      </div>
+      <p class="text-center mt-5 wow fadeInUp"><a href="#"
+          class="btn btn-outline-dark border-2 mt-5 shadow-none rounded-0 ps-5 pe-5 p-3">Download CV</a></p>
+    </div>
+  </main>
+  <!-- ----------------RESUME-END------------ -->
+  <!-- ------------PORTFOLIO-START-------------- -->
+  <section id="#section" class="portfolio">
+    <div class="container ">
+      <p class="mt-5 align-items-center d-flex justify-content-center"><span
+          class="text-dark mt-5 bg-primary">Portfolio</span></p>
+      <h2 class="fw-bold text-center fs-1">Some of my most recent projects</h2>
+      <ul class=" nav fw-600 justify-content-start justify-content-md-center mt-5">
+        <li class="nav-item"> <a data-filter="*" class="nav-link rounded-0 active fw-bolder text-dark" href="">All</a>
+        </li>
+        <li class="nav-item"> <a data-filter=".detailed" href=""
+            class="nav-link rounded-0 fw-bolder text-secondary text-hover-dark">Detailed</a></li>
+        <li class="nav-item"> <a data-filter=".mockups" href=""
+            class="nav-link rounded-0 fw-bolder text-secondary">Mockups</a></li>
+        <li class="nav-item"> <a data-filter=".youtube" href=""
+            class="nav-link rounded-0 fw-bolder text-secondary">YouTube Videos</a></li>
+        <li class="nav-item"> <a data-filter=".vimeo" href="" class="nav-link rounded-0 fw-bolder text-secondary">Vimeo
+            Videos</a></li>
+      </ul>
+      <div class="row mt-5">
+        <div class="i-class mb-sm-5 mb-lg-0 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-1.jpg" height="300" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-file-lines" style="color: #f7de3f;"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">detailed peoject 1</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+        <div class="i-class mb-sm-5 mb-lg-0 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-2.jpg" height="450" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-image" style="color: #f7de3f"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">Mockups Design 1</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+        <div class="i-class mb-sm-5 mb-lg-0 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-3.jpg" height="450" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-video" style="color:#f7de3f;"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">YouTube Video</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+
+
+      <div class="row mt-4">
+        <div class="i-class mb-sm-5 mb-lg-0 col-md-6 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-4.jpg" height="450" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-video" style="color: #f7de3f;"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">Vimeo Video</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+        <div class="i-class mb-sm-5 mb-lg-0 col-md-6 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-5.jpg" height="450" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-file-lines" style="color: #f7de3f;"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">detailed peoject 1</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+        <div class="i-class mb-sm-5 mb-lg-0 col-md-6 col-lg-4">
+          <a href="#" class="position-relative">
+            <img src="images/project-6.jpg" height="450" alt="portfolio-image-1">
+            <div class="img-card position-absolute d-flex flex-column align-items-center justify-content-center">
+              <h1 class="mb-4"><i class="fa-solid fa-image" style="color: #f7de3f"></i></h1>
+              <h4 class="text-capitalize text-light mb-2">Mockups up 2</h4>
+              <h5 class="text-capitalize text-light">category</h5>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="class-bg mt-5">
+      <div class="overlay-class d-flex justify-content-center align-items-center position-relative flex-column">
+        <h2 class="fw-bold text-center text-light fs-1">Interested in working with me?
+        </h2>
+        <button class="btn mt-3 ps-5 pe-5 p-3 bg-primary fw-bold">Hire me!
+        </button>
+      </div>
+    </div>
+  </section>
+  <!-- ------------PORTFOLIO-END-------------- -->
+  <!------------------IDEA-STRAT----------------- -->
+  <section id="idea" class="idea">
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 order-lg-0 order-1">
+          <p class="mt-5"><span class="text-dark mt-5 bg-primary">FAQ</span></p>
+          <h2 class="fw-bold fs-1">Have any questions?</h2>
+          <div class="akay-div">
+            <!-- -----acordion start---- -->
+            <div class="accordion accordion-flush pb-2 pt-5" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed d-flex flex-wrap" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    What is callum?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Lisque persius interesset his et, in quot quidam persequeris vim, ad mea essent possim iriure. Mutat
+                    tacimates id sit. Ridens mediocritatem ius an, eu nec magna imperdiet.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="accordion accordion-flush pb-2" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header ">
+                  <button class="accordion-button collapsed d-flex flex-wrap" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseone" aria-expanded="false" aria-controls="collapseone">
+                    How can I help You?
+                  </button>
+                </h2>
+                <div id="collapseone" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                    squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                    on it squid single-origin coffee nulla assumenda shoreditch et.
+
+                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad
+                    vegan excepteur butcher vice lomo.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="accordion accordion-flush pb-2" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed d-flex flex-wrap" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Simple process of work flow?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                    squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                    on it squid single-origin coffee nulla assumenda shoreditch et.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr>
+            <div class="accordion accordion-flush pb-2" id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed d-flex flex-wrap" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                    Is callum a Multo-purpose template?
+                  </button>
+                </h2>
+                <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                    squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                    on it squid single-origin coffee nulla assumenda shoreditch et.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="accordion accordion-flush " id="faqTopics">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed d-flex flex-wrap mb-4" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                    Why responsive one page template?
+                  </button>
+                </h2>
+                <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Iisque Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                    squid. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                    on it squid single-origin coffee nulla assumenda shoreditch et.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-lg-1 order-0 p-5 img-res">
+          <img src="images/idea.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <!------------------IDEA-END----------------- -->
+  <!-- ---------------SCROLLING-START----------- -->
+  <section class="scroll">
+    <div class="row">
+      <div class="col-12">
+        <div class="mt-5">
+          <p class=" align-items-center d-flex justify-content-center"><span class="text-dark mt-5 bg-primary">Client
+              Speak</span></p>
+          <h2 class="fw-bold text-center text-light mb-5 fs-1">What Some of my Clients Say</h2>
+        </div>
+        <div class="container core d-flex justify-content-center">
+          <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p class="text-center text-light"> " Client speak sit amet consectetur, adipisicing elit. Excepturi sit
+                  eum vitae animi cum
+                  voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum, dolor sit amet
+                  consectetur adipisicing elit. Culpa, ab? "
+                </p>
+                <div class="d-flex justify-content-center">
+                  <img src="images/client-sm-1.jpg" class="rounded-circle" alt="">
+                </div>
+                <strong class="d-block mt-2 text-center fw-400 text-white">Dennis Jacques</strong>
+                <span class="d-block text-light text-center">Noon Inc</span>
+              </div>
+              <div class="carousel-item">
+                <p class="text-center text-light"> " I am working sit amet consectetur, adipisicing elit. Excepturi sit
+                  eum vitae animi cum
+                  voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum dolor sit amet. " </p>
+                <div class="d-flex justify-content-center">
+                  <img src="images/client-sm-2.jpg" class="rounded-circle" alt="">
+                </div>
+                <strong class="d-block mt-2 text-center fw-400 text-white">Pokyy cary</strong>
+                <span class="d-block text-light text-center">Noon Inc USA</span>
+              </div>
+              <div class="carousel-item">
+                <p class="text-center text-light"> "I have used to sit amet consectetur, adipisicing elit. Excepturi sit
+                  eum vitae animi cum
+                  voluptatum dolores quis eligendi fugit, praesentium qui, harum aut Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Tenetur, laboriosam. " </p>
+                <div class="d-flex justify-content-center">
+                  <img src="images/client-sm-4.jpg" class="rounded-circle" alt="">
+                </div>
+                <strong class="d-block mt-2 text-center fw-400 text-white">murak denoiz</strong>
+                <span class="d-block text-light text-center">Noon Inc,TURKY</span>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ---------------SCROLLING-END----------- -->
+  <!-- ----------------FOOTER-START----------- -->
+  <div class="last">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6  mt-lg-5" style="padding-right: 80px;">
+          <h2 class="fw-bold fs-1">Let's get in touch</h2>
+          <p class="text-5 mb-5 p-5 ps-0 pb-0">I enjoy discussing new projects and design challenges. Please share as
+            much info, as possible so we can get the most out of our first catch-up.</p>
+          <h3 class="text-5 fw-bold">Living In:</h3>
+          <p class="text-5 ps-0 mb-3 fs-5 pb-0">30 Shacham street, Los Angeles, USA.</p>
+          <h3 class="text-5 fw-bold">Call:</h3>
+          <p class="text-2 ps-0 pb-0">(+060) 444 434 444</p>
+          <ul
+            class="social-icons social-icons-lg justify-content-center d-flex justify-content-lg-start mt-5 list-unstyled">
+            <li><a href=""></a><i class="fab fa-twitter me-3 fa-xl" style="color: #585857;"></i></li>
+            <li><a href=""></a><i class="fab me-2 fa-facebook me-3 fa-xl" style="color: #585857;"></i></li>
+            <li><a href=""></a><i class="fab fa-xl fa-instagram me-3 fa-xl" style="color: #585857;"></i></li>
+            <li><a href=""></a><i class="fab me-3 fa-xl fa-github" style="color: #585857;"></i></li>
+            <li><a href=""></a><i class="fab me-3 fa-xl fa-dribbble " style="color: #585857;"></i></li>
+
+          </ul>
+        </div>
+        <div class="col-lg-6 mt-lg-5">
+          <h2 class="fw-bold fs-1">Estimate your Project?</h2>
+          <label class="form-label mt-5 mb-3" for="name">What is Your Name:</label>
+          <input id="name" name="name" type="text" class="form-control py-1" required="">
+          <label class="form-label mt-3 mb-3" for="name">Your Email Address:</label>
+          <input id="name" name="name" type="email" class="form-control py-1" required="">
+          <label class="form-label mt-4 mb-3" for="name"> How can I Help you?</label>
+          <textarea id="form-message" name="form-message" class="form-control py-1" rows="4" required=""></textarea>
+          <button id="submit-btn" class="btn btn-dark rounded-0 mt-3 ps-5 pe-5 p-3" type="submit">Send
+            <span class="ms-3"><i class="fas fa-arrow-right"></i></span></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<footer>
+  <div class="container">
+      <div class="col-lg-6 text-center text-lg-start d-flex justify-content-center flex-column">
+        <p class="mb-2 mb-lg-0 text-light">Copyright © 2021 <a class="fw-600 " href="#">Callum</a>. All Rights Reserved.</p>
+      </div>
+      <div class="col-lg-6 d-flex justify-content-center flex-column">
+        <p class="mb-0 text-center text-light text-lg-end">Designed by <a class="fw-600" href="http://www.harnishdesign.net/">Harnish Design</a></p>
+      </div>
+  </div>
+</footer>
+<div class="arrow">
+  <a id="back-to-top" class="rounded-circle bg-secondary" href="#"><i class="fa-solid fa-arrow-up" style="color: #dfe0e2;"></i></a>
+</div>
+  <!-- ----------------FOOTER-END----------- -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   
+</body>
+</html>
+
