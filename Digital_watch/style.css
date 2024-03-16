@@ -1,0 +1,58 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  background: #051419;
+}
+h1{
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+
+a{
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-left: 630px;
+  margin-top: 50px;
+}
+.btn {
+  cursor: pointer;
+  float: left;
+  font-family: "Philosopher", sans-serif;
+  display: block;
+  width: 250px;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background: #051419;
+  box-shadow: 0px 0px 20px 5px #5ca7bd;
+  height: 75px;
+  font-size: 30px;
+  line-height: 0px;
+  font-size: 40px;
+  color: #FDFDFD;
+}
+
+.stopwatch{
+  margin-top: 190px;
+  margin-left: 600px;
+}
+.stopwatch button{
+  height: 30px;
+  width: 80px;
+}
+button{
+  padding: 20px;
+  line-height: 0;
+  font-size: larger;
+  font-weight: 700;
+  background: #051419;
+  box-shadow: 0px 0px 10px 0px #5ca7bd;
+  color: white;
+  margin: 10px;
+  cursor: pointer;
+}
