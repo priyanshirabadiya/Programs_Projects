@@ -1,7 +1,8 @@
 body {
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
+    font-weight: bold;
     font-style: normal;
+    font-size: larger;
 }
 
 .text-center{
